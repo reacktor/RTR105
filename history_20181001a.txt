@@ -1,0 +1,54 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  .
+    4  ..
+    5  pwd
+    6  git clone https://github.com/reacktor/RTR105
+    7  ls -l
+    8  cd RTR105/
+    9  pwd
+   10  python
+   11  ipython
+   12  idle &
+   13  ls -l
+   14  cat dgr_20181001b.py 
+   15  nano
+   16  nano test_1a.py
+   17  firefox
+   18  nano test_1a.py
+   19  python test_1a.py
+   20  nano test_1a.py
+   21  python test_1a.py
+   22  nano test_1a.py
+   23  python test_1a.py
+   24  nano test_1a.py
+   25  ls -l
+   26  git clone https://github.com/reacktor/RTR105
+   27  vars() ..
+   28  /RTR105
+   29  /usr/RTR105
+   30  cd /RTR105
+   31  ls -l
+   32  cd /RTR105
+   33  /RTR105
+   34  /home/user/RTR105
+   35  /RTR105$ history_20181001.txt
+   36  ls -l
+   37  mv test_1a.py RTR105/
+   38  cd RTR105/
+   39  ls -l
+   40  history >  history_20181001.txt
+   41  ls -l
+   42  nano READNE.md
+   43  nano README.md
+   44  man cd
+   45  nano README.md
+   46  ls -l
+   47  chmod
+   48  man chmod
+   49  nano README.md
+   50  chmod 764 histry_20181001.txt
+   51  ls -l
+   52  man chmod
+   53  firefox &
+   54  history >  history_20181001a.txt
