@@ -52,6 +52,6 @@ history > history_20181001.txt
 ls -l
 man chmod
 chmod 764 history_20181001.txt
-
-
-
+______________________________________________________________________________
+08.10.2018
+Šodien es stradāju ar komandu idle un uzzināt ka strada ar printu un cipariem.
