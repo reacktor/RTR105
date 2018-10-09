@@ -53,5 +53,24 @@ ls -l
 man chmod
 chmod 764 history_20181001.txt
 ______________________________________________________________________________
-08.10.2018
-Šodien es stradāju ar komandu idle un uzzināt ka strada ar printu un cipariem.
+09.10.2018(Konsultācija)
+Programma,lai login terminala
+1 ievelējums = 'hello'+ 'user'
+print(1 ievelējums)
+hello user
+User = input('Who are you?')
+Max
+print('Welcome', User)
+Welcome Max
+
+Šodien es uzzināju ka skaitīt algu ar programmu
+Hours = input('Dear user,how many hours you work?')
+35
+Rate = input('What is your rate?')
+2.75
+Pay = float(Hours) * float(Rate)
+print('Your pay is:', Pay)
+96.25
+______________________________________________________________________________
+
+
