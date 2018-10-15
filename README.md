@@ -72,5 +72,11 @@ Pay = float(Hours) * float(Rate)
 print('Your pay is:', Pay)
 96.25
 ______________________________________________________________________________
-
+15.10.2018
+Šodien es uzzināju ka strada komanda if,else,elif un visas simbolus <,>,<=,>=,==,!= .
+Un es arī stradāju ar komandu try un except: 
+Bet es neuzzināju ka šī komanda strada līdz galam
+Un tāpēc rīt es nonac konsultaciju,lai saprast visu.
+P.S. Paldies par uzmanību.
+______________________________________________________________________________
 
