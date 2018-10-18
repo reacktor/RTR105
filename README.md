@@ -79,4 +79,10 @@ Bet es neuzzināju ka šī komanda strada līdz galam
 Un tāpēc rīt es nonac konsultaciju,lai saprast visu.
 P.S. Paldies par uzmanību.
 ______________________________________________________________________________
+18.10.2018
+Šodien es pabeigsies to,ko mēs darijām pedēja nodarbība un šodien es saprotu 
+ka strada komanda try un except.
+Es izdariju 2 uzdevumus un man nebijas problemas,bet es domāju kad es naksies
+konsultaciju,tad es var izdariju citas nākamas uzdevumus.
+______________________________________________________________________________
 
