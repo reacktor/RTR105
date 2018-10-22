@@ -74,15 +74,24 @@ print('Your pay is:', Pay)
 ______________________________________________________________________________
 15.10.2018
 Šodien es uzzināju ka strada komanda if,else,elif un visas simbolus <,>,<=,>=,==,!= .
-Un es arī stradāju ar komandu try un except: 
+Un es arī stradāju ar komandu try un except:
 Bet es neuzzināju ka šī komanda strada līdz galam
 Un tāpēc rīt es nonac konsultaciju,lai saprast visu.
 P.S. Paldies par uzmanību.
 ______________________________________________________________________________
 18.10.2018
-Šodien es pabeigsies to,ko mēs darijām pedēja nodarbība un šodien es saprotu 
+Šodien es pabeigsies to,ko mēs darijām pedēja nodarbība un šodien es saprotu
 ka strada komanda try un except.
 Es izdariju 2 uzdevumus un man nebijas problemas,bet es domāju kad es naksies
 konsultaciju,tad es var izdariju citas nākamas uzdevumus.
 ______________________________________________________________________________
+22.10.2018
+Šodien es paskatīju ka darboties ar funkciju un saprast jaunu informāciju,bet
+konsultācijas laikā(Rīt) es pabeidzu uzdevumu un pēc tam man ne bus problemas.
+Šodien es uzzināt ka stradas komandas:def un return
+def thing():
+thing(): - Key word
+return - "Sveiks + Vārds)
+______________________________________________________________________________
+
 
