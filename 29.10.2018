@@ -1,0 +1,10 @@
+Ar Andreja palidzību es uzzināju ka es nepareizi pildīt uzdevumus un viņš pateic ka pareizi stradās komandas:if,elif,else un kaut kada informacija par input
+Uzdevums 3.1
+hours = float(input("Enter your hours:")) 
+rate = float(input("Enter your rate:"))
+if hours > 40.0:
+ p = rate * 40
+ pay = p + (1.5 * rate * (hours - 40))
+else:
+    p = hours * rate
+print(pay)
