@@ -1,0 +1,17 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  f
+    5  rm -rf RTR105
+    6  ls -l
+    7  git clone https://github.com/reacktor/RTR105
+    8  ls -l
+    9  cd /RTR105
+   10  cd RTR105
+   11  ls -l
+   12  nano README.md
+   13  s
+   14  nano README.md
+   15  idle &
+   16  nano README.md
+   17  history > history_20181105.txt

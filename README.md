@@ -93,5 +93,15 @@ def thing():
 thing(): - Key word
 return - "Sveiks + Vārds)
 ______________________________________________________________________________
-
-
+29.10.2018 - 01.11.2018
+Sveiks... ar Andreja palidzību es izdarīju 2-3 uzdevumus,nebijas problemas
+Es zinu kā stradā komandas if,elif,else un while True:,for.
+Bija ļoti interesanta uzdevuma 5.2,kura es programme ar daudzām komandam
+es stradāju ar visas komandas kuras es zinu.
+______________________________________________________________________________
+05.11.2018
+Šodien es paskatījas ka strada funkcija len un uzzināju ka stradāt ar stringa
+data tipu,Looping un Counting.
+Ja pareizi uzrakstīt programmu ar len funkciju un stringas var izdarīt spēlē
+ka "Pole Chudes" ar savam likumam un Jakubovičam.
+______________________________________________________________________________
