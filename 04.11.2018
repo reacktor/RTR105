@@ -1,0 +1,17 @@
+Ar ļoti lielu Andreja palidzību es uzzināju ka stradas šadas komandas un ka pareizi stradāt ar šiem.
+
+myList = []
+while True:
+    num = input("Enter a number,when done, write one")
+    try:
+        if num == "done":
+            break
+        myList.append(int(num))
+    except ValueError:
+        print("Invalid input")
+        continue
+if len(myList) > 0:
+    print("Maximum is " + str(max(myList)))
+    print("Minimum is " + str(min(myList)))
+else:
+    print("EROR404")
