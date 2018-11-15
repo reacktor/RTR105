@@ -1,0 +1,53 @@
+Grafika zimēšanas.
+
+import sys
+sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
+from matplotlib import pyplot as plt
+from numpy import *     # Importē skaitlisko metožu bibliotēkas funkcijas
+x = linspace(0, 7, 70)  # Trešais arguments ir ģenerējamo elementu skaits
+y = cos(x)
+plt.grid()
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.title('Funkcija $cos(x)$')
+plt.plot(x, y)
+plt.show()
+
+Ja gribi apmainīt krasu,tad pēc plt.plot(x, y) vai plt.title('Funkcija $cos(x)$'), vai plt.xlabel('x'), vai plt.ylabel('f(x)') 
+jāraksta komandu , color = "#RRGGBB"
+
+Piem.:
+import sys
+sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
+from matplotlib import pyplot as plt
+from numpy import *     # Importē skaitlisko metožu bibliotēkas funkcijas
+x = linspace(0, 7, 70)  # Trešais arguments ir ģenerējamo elementu skaits
+y = cos(x)
+plt.grid()
+plt.xlabel('x', color = "#009900")
+plt.ylabel('f(x)')
+plt.title('Funkcija $cos(x)$', color = "#880050")
+plt.plot(x, y, color = "#990000")
+plt.show()
+
+Viena grafika var but dažadas funkcijas,ka sin,tan,arctan
+
+Piem.:
+import sys
+sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
+from matplotlib import pyplot as plt
+from numpy import *     # Importē skaitlisko metožu bibliotēkas funkcijas
+x = linspace(0, 7, 70)  # Trešais arguments ir ģenerējamo elementu skaits
+y = cos(x)
+y2 = sin(x)
+y3 = tan(x)
+y4 = arctan(x)
+plt.grid()
+plt.xlabel('x', color = "#009900")
+plt.ylabel('f(x)')
+plt.title('Funkcija $cos(x)$', color = "#880050")
+plt.plot(x, y, color = "#990000")
+plt.plot(x,y2, color = "#009900")
+plt.plot(x,y3, color = "#999900")
+plt.plot(x,y2, color = "#000000")
+plt.show()
