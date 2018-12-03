@@ -105,3 +105,10 @@ data tipu,Looping un Counting.
 Ja pareizi uzrakstīt programmu ar len funkciju un stringas var izdarīt spēlē
 ka "Pole Chudes" ar savam likumam un Jakubovičam.
 ______________________________________________________________________________
+12.11.2018-03.12.2018
+Es nezinu kāpec pedējas izmaiņas nesaglabājas,bet pedējas stundas mēs 
+stradājam ar atvasinajumus un funkcijas.
+Es uzzināju ka stradāt ar python 3.6.5(idle) un zīmēt grafikus ar kordinatiem,
+ka mainit krasu un punktu kopumu.
+Pedēja datuma es stradāju ar Monte Carlo metode,viņs integre laukums.
+______________________________________________________________________________ 
