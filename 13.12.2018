@@ -1,0 +1,92 @@
+>>> original = "To be or not to be"
+>>> type(original)
+<class 'str'>
+>>> len(original)
+18
+>>> original[0]
+'T'
+>>> original[1]
+'o'
+>>> key = 10
+>>> original[0] ^ key
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    original[0] ^ key
+TypeError: unsupported operand type(s) for ^: 'str' and 'int'
+>>> ord(original[0])
+84
+>>> original[0]
+'T'
+>>> bin(ord(original[0]))
+'0b1010100'
+>>> ord(original[0]) ^ key
+94
+>>> chr(ord(original[0]) ^ key)
+'^'
+>>> chr(ord(original[0]) ^ key) ^ key
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    chr(ord(original[0]) ^ key) ^ key
+TypeError: unsupported operand type(s) for ^: 'str' and 'int'
+>>> (ord(original[0]) ^ key) ^ key
+84
+>>> chr((ord(original[0]) ^ key) ^ key)
+'T'
+>>> original
+'To be or not to be'
+>>> key
+10
+>>> N = len(original)
+>>> N
+18
+>>> message = []
+>>> for i in range(N):
+	massage.append(chr(ord(original[i]) ^ key))
+
+	
+Traceback (most recent call last):
+  File "<pyshell#26>", line 2, in <module>
+    massage.append(chr(ord(original[i]) ^ key))
+NameError: name 'massage' is not defined
+>>> massage
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    massage
+NameError: name 'massage' is not defined
+>>> massage = " "
+>>> for i in range(N):
+	massage = massage + (chr(ord(original[i]) ^ key))
+
+	
+>>> massage
+' ^e*ho*ex*de~*~e*ho'
+>>> r
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    r
+NameError: name 'r' is not defined
+>>> 
+>>> 
+>>> 
+>>> result = " "
+>>> key1 = 45
+>>> for i in range(N):
+	result = result + (chr(ord(original[i]) ^ key1))
+
+	
+>>> result
+' yB\rOH\rB_\rCBY\rYB\rOH'
+>>> key1 = key
+>>> result = " "
+>>> for i in range(N):
+	result = result + (chr(ord(original[i]) ^ key1))
+
+	
+>>> result
+' ^e*ho*ex*de~*~e*ho'
+>>> for i in range(N):
+	result = result + (chr(ord(massage[i]) ^ key1))
+
+	
+>>> result
+' ^e*ho*ex*de~*~e*ho*To be or not to b'
